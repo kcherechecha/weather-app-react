@@ -1,0 +1,18 @@
+.App .city-name {
+  font-size: 45px;
+  margin: 5px auto;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.App .condition {
+  margin: 5px auto;
+}
+.App .condition::first-letter {
+  text-transform: capitalize;
+}
+
+.App .temperature {
+  font-weight: 400 !important;
+  font-size: 32px;
+  margin: 20px auto;
+}
